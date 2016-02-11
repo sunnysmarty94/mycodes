@@ -1,0 +1,7 @@
+<?php
+function Greeting($name)
+{
+	$rand_num = rand(5,16);  // generate random number between 5 and 16
+	echo "$name $rand_num"; // display the number with name
+}
+?>
